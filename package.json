@@ -1,0 +1,27 @@
+{
+  "name": "fullcalendar5-rightclick",
+  "version": "1.0.0",
+  "description": "Monkey patch to expose right-click events through fullcalendar dateClick",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwobbones/fullcalendar5-rightclick.git"
+  },
+  "keywords": [
+    "fullcalendar"
+  ],
+  "author": "Greg Lucas-Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bwobbones/fullcalendar5-rightclick/issues"
+  },
+  "homepage": "https://github.com/bwobbones/fullcalendar5-rightclick#readme",
+  "dependencies": {
+    "@fullcalendar/common": "^5.5.1",
+    "@fullcalendar/interaction": "^5.5.0",
+    "tslib": "^2.1.0"
+  }
+}
