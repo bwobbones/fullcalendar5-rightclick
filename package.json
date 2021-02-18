@@ -1,6 +1,6 @@
 {
   "name": "@bwobbones/fullcalendar5-rightclick",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Monkey patch to expose right-click events through fullcalendar dateClick",
   "main": "index.js",
   "dependencies": {
