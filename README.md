@@ -12,8 +12,8 @@ npm i @bwobbones/fullcalendar5-rightclick
 Use a javascript proxy to patch in the change
 
 ```
-import interactionPlugin from '@fullcalendar/interaction'
 import DateClicking from '@bwobbones/fullcalendar5-rightclick'
+import interactionPlugin from '@fullcalendar/interaction'
 
 const myInteractionPlugin = new Proxy(interactionPlugin, {
   get(target, prop, receiver) {

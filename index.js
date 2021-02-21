@@ -400,7 +400,6 @@ const DateClicking = /** @class */ (function(_super) {
     // we DO want to watch pointer moves because otherwise finalHit won't get populated
     _this.dragging = new FeaturefulElementDragging(settings.el);
     _this.dragging.autoScroller.isEnabled = false;
-
     settings.el.addEventListener("contextmenu", function(ev) {
       var pev = {
         origEvent: ev,
