@@ -1080,7 +1080,6 @@ class DateClicking extends Interaction {
           view: context.viewApi || context.calendarApi.view,
         }
       );
-      console.log("triggered it!");
       context.emitter.trigger("dateClick", arg);
 
       let { dragging } = this;
