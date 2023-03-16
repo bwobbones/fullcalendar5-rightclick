@@ -1,7 +1,10 @@
 # fullcalendar5-rightclick
+
 Monkey patch to expose right-click events through fullcalendar dateClick
 
 A truly ugly hack to while we wait for https://github.com/fullcalendar/fullcalendar/pull/6044 to be merged.
+
+Now updated to support FullCalendar 6. **If you need to run FullCalendar5 use v1.0.2.**
 
 To install
 
@@ -45,7 +48,7 @@ dateClick: (info) => {
   console.log('Coordinates: ' + info.jsEvent.pageX + ',' + info.jsEvent.pageY);
   console.log('Current view: ' + info.view.type);
   console.log('Dayel', info.dayEl)
-  
+
   if (info.jsEvent.button === 2) {
     console.log('setting...', info)
     this.currentPasteData = info
@@ -60,5 +63,3 @@ eventDidMount: info => {
   }, false);
 }
 ```
-
-

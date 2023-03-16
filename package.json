@@ -1,14 +1,14 @@
 {
   "name": "@bwobbones/fullcalendar5-rightclick",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Monkey patch to expose right-click events through fullcalendar dateClick",
   "main": "index.js",
   "dependencies": {
-    "@fullcalendar/common": "^5.5.1",
-    "@fullcalendar/interaction": "^5.5.0",
-    "tslib": "^2.1.0"
+    "@fullcalendar/core": "^6.1.4",
+    "@fullcalendar/interaction": "^6.1.4",
+    "@fullcalendar/resource": "^6.1.4",
+    "tslib": "^2.5.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
